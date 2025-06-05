@@ -37,3 +37,22 @@ console.log(num4); // 0.00015
 
 console.log(typeof num3); // number
 console.log(typeof num4); // number
+
+// BigInt
+
+// BigInt data type can hold numbers + or - (2^53 - 1), that number type cannot do
+// BigInt is created by appending "n" to the edn of an integer
+
+let bigint = 123456789012345678901234567890n;
+
+console.log(bigint); // 123456789012345678901234567890n
+
+console.log(typeof bigint); // bigint
+
+// Without appending an "n"
+
+let bigint2 = 123456789012345678901234567890;
+
+console.log(bigint2); // 1.2345678901234568e+29 aproximate answer
+
+console.log(typeof bigint2); // number
