@@ -101,7 +101,7 @@ let name = null;
 
 console.log(name); // null
 
-console.log(typeof null); // object
+console.log(typeof name); // object (error of javascript)
 
 // undefined
 
