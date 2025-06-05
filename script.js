@@ -13,6 +13,24 @@
 // A javascript variable can hold any type of data
 // Javascript has "dynamic types", meaning the same variable can hold different data types
 
+// String
+
+// A string is a series of characters that are written in quotes
+// Strings can be written in double or single quotes
+// Quotes can be used inside strings using the opposite quotes
+
+let string1 = "Hello World";
+let string2 = "Welcome!";
+let string3 = "You are a 'user'";
+
+console.log(string1); // Hello World
+console.log(string2); // Welcome!
+console.log(string3); // You are a 'user'
+
+console.log(typeof string1); // string
+console.log(typeof string2); // string
+console.log(typeof string3); // string
+
 // Number
 
 // All javascript numbers are stored as decimal numbers (float)
