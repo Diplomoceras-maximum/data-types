@@ -102,3 +102,14 @@ let name = null;
 console.log(name); // null
 
 console.log(typeof null); // object
+
+// undefined
+
+// undefined data type only contains "undefined"
+// undefined represents "value is not assigned"
+
+let age;
+
+console.log(age); // undefined
+
+console.log(typeof age); // undefined
