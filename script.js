@@ -56,3 +56,20 @@ let bigint2 = 123456789012345678901234567890;
 console.log(bigint2); // 1.2345678901234568e+29 aproximate answer
 
 console.log(typeof bigint2); // number
+
+// Boolean
+
+// Boolean type has only two values "true" and "false"
+// Used to store yes/no values, "true" means yes, correct, and "false" means no, incorrect
+
+let bool1 = 1;
+let bool2 = 2;
+let bool3 = 3;
+let bool4 = 5 > 1;
+let bool5 = true;
+
+console.log(bool1 == bool2); // false ( 1 does not equal 2)
+console.log(bool1 < bool3); // true (1 is smaller than 3)
+
+console.log(typeof bool4); // boolean
+console.log(typeof bool5); // boolean
