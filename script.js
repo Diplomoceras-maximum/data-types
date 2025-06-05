@@ -91,3 +91,14 @@ console.log(bool1 < bool3); // true (1 is smaller than 3)
 
 console.log(typeof bool4); // boolean
 console.log(typeof bool5); // boolean
+
+// null
+
+// null data type only contains "null"
+// null represents "nothing", "empty", or "value unknown"
+
+let name = null;
+
+console.log(name); // null
+
+console.log(typeof null); // object
